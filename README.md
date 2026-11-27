@@ -22,11 +22,11 @@ conda install -c conda-forge -c bioconda viennarna
 
 The following three experimental expression datasets are used to evaluate local RNA folding and accessibility in E. coli. They are not used to train the conditional sequence generator.
 
-| Dataset | Expression measurement | Download | Original publication |
-|---|---|---|---|
-| Nieuwkoop 2023 | Red fluorescent protein (mRFP) expression | [mRFP_Expression.csv (CodonBERT mirror)](https://github.com/Sanofi-Public/CodonBERT/blob/master/benchmarks/CodonBERT/data/fine-tune/mRFP_Expression.csv) | [Nucleic Acids Research](https://doi.org/10.1093/nar/gkad035) |
-| Schmitz 2021 | Green fluorescent protein (GFP) expression | [Figshare (author-provided link)](https://figshare.com/s/51c4820b2bee85c94007) | [BMC Genomics](https://doi.org/10.1186/s12864-021-07462-z) |
-| Boël 2016 | Protein expression score (0–5) | [PMC supplementary data](https://pmc.ncbi.nlm.nih.gov/articles/PMC5054687/) — `Boel2015NESG6348ProteinDataset.csv` | [Nature](https://doi.org/10.1038/nature16509) |
+| Dataset | Expression measurement | Download |
+|---|---|---|
+| Nieuwkoop 2023 | Red fluorescent protein (mRFP) expression | [mRFP_Expression.csv](https://github.com/Sanofi-Public/CodonBERT/blob/master/benchmarks/CodonBERT/data/fine-tune/mRFP_Expression.csv) |
+| Schmitz 2021 | Green fluorescent protein (GFP) expression | [Figshare](https://figshare.com/s/51c4820b2bee85c94007) |
+| Boël 2016 | Protein expression score (0–5) | [PMC supplementary data](https://pmc.ncbi.nlm.nih.gov/articles/PMC5054687/) — `Boel2015NESG6348ProteinDataset.csv` |
 
 For Nieuwkoop, the CSV is a redistributed copy; consult the original publication for provenance. For Schmitz, the Figshare link is cited in the original article's Data Availability section; direct access could not be verified. For Boël, locate the named CSV in the original article's supplementary materials.
 
